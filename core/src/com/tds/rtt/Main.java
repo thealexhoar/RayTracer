@@ -19,10 +19,10 @@ public class Main extends ApplicationAdapter {
     FPSLogger logger;
 
     ShapeRenderer shapeRenderer;
-    int rScale = 5;
+    int rScale = 10;
     float angle = 0;
-    float omega = 0.01f;
-	
+    float omega = 0.005f;
+
 	@Override
 	public void create () {
 		batch = new SpriteBatch();

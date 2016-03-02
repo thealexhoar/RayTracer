@@ -22,12 +22,12 @@ public class Tracer {
                 new GraphicSphere(new Sphere(new Vector3(-3,0,10), 1), Color.RED, 0.3f, 0),
                 new GraphicSphere(new Sphere(new Vector3(0,3,10), 1), Color.BLUE, 0.3f, 0),
                 new GraphicSphere(new Sphere(new Vector3(0,-3,10), 1), Color.YELLOW, 0.3f, 0),
-                new GraphicSphere(new Sphere(new Vector3(0,0,11), 1), Color.WHITE, 0.7f, 0),
+                new GraphicSphere(new Sphere(new Vector3(0,0,11), 1), Color.WHITE, 0.9f, 0),
 
         };
         _lights = new Vector3[] {
-                //new Vector3(0,0,0),
-                //new Vector3(8,0,7f),
+                //new Vector3(8, 1,0),
+                //new Vector3(0,20,7f),
                 new Vector3(4,8,2f),
         };
     }
